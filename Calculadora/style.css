@@ -135,3 +135,21 @@ div.equal:active {
   text-decoration: none;
   color: #4cc9f0;
 }
+
+@media (max-width: 768px) {
+  body {
+    width: 37.5rem;
+  }
+
+  .operators div {
+    width: 7rem;
+  }
+
+  .numbers div {
+    width: 7rem;
+  }
+  
+  div.equal {
+    width: 7rem;
+  }
+}
